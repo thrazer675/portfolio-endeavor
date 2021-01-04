@@ -89,14 +89,39 @@ header ul li a {
     width: 175px;
 }
 
+.headshot {
+    height: auto;
+    width: 150px;
+    border: 13px solid white;
+}
+
 .contact ul {
     list-style-type: none;
     margin: 10px;
     float: right;
 }
 
+.contact li {
+    display: inline-flex;
+    margin: 15px;
+}
 
 .contact ul li a {
     text-decoration: none;
     color: black;
+
+}
+
+@media screen and (max-width: 575px) {
+    .hero {
+        width: 100%;
+    }
+
+    .hero-sub {
+        width: 100%;
+    }
+
+    .header {
+        width: 100%;
+    }
 }

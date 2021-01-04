@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+    background-color: #242424;
+}
+
+.hero {
+    background-image: url("../images/black-and-gray-background.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.hero-sub {
+    width: 35%;
+    text-align: right;
+    margin: 3%;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1;
+}

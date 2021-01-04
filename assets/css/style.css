@@ -1,16 +1,48 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+ */
 
 body {
-    color: #ffffff;
+    margin: 0;
+    color: rgb(0, 0, 0);
     font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(180, 180, 180);
 }
 
 header {
     background-color: #242424;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+header h1 a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+header nav {
+    float: right;
+    margin: 10px;
+}
+
+header ul {
+    margin: 10px;
+}
+
+header ul li {
+    display: inline;
+    margin: 20px 20px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
 }
 
 .hero {
@@ -24,10 +56,20 @@ header {
 }
 
 .hero-sub {
-    width: 35%;
-    text-align: right;
-    margin: 3%;
+    float: right;
+    margin: 30px;
     color: #fff;
     font-size: 16px;
     line-height: 1;
+}
+
+.hero-sub h2 {
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+    padding: 7px 15px;
+}
+
+.about h2 {
+
 }

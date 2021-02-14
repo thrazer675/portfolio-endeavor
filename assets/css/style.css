@@ -70,23 +70,31 @@ header ul li a {
     padding: 7px 15px;
 }
 
+.padding {
+    padding: 5px;
+}
+
+.padding-right {
+    padding-right: 8px;
+}
+
 .projects {
   display: flex;
 }
 
+.group-project img {
+    height: auto;
+    width: 375px;
+}
+
 .single-project img {
     height: auto;
-    width: 250px;
+    width: 280px;
 }
 
 .single-project a {
   text-decoration: none;
   color: #fff;
-}
-
-.grayson img {
-    height: auto;
-    width: 175px;
 }
 
 .headshot {
@@ -123,5 +131,13 @@ header ul li a {
 
     .header {
         width: 100%;
+    }
+
+    .single-project {
+        display: block;
+    }
+
+    .group-project {
+        display: block;
     }
 }
